@@ -1,0 +1,55 @@
+/* Your Website Styles */
+
+h1{text-align: center; color:#16a085;
+font-family: 'Josefin Slab', serif;}
+
+img{border: 5px solid; border-color: #16a085}
+
+
+body{background: #2c3e50}
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #16a085;
+  
+}
+
+.gallery .control-button:hover {
+  color: #16a085;
+ 
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  background: #2c3e50;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #16a085;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: .1s;
+}
+
+
+/* Show Grid */
